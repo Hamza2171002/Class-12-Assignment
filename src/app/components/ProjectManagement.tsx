@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const ProjectManagement = () => {
   return (
     <section className="py-20 px-4 sm:px-10 md:px-20 lg:px-40 bg-white">
@@ -29,10 +29,12 @@ const ProjectManagement = () => {
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Left Section: Circular Image */}
           <div className="md:w-1/2 flex justify-center pr-6">
-          <img
+          <Image
                     src="/Work Together Image.png"
                     alt="Center Icon"
-                    className="w-[410px] h-[261px]"
+                    width={410}
+                    height={261}
+                    className="object-contain"
                   />
           </div>
 
