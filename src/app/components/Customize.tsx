@@ -18,7 +18,7 @@ const Customize = () => {
 
           </p>
           <button className="bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-3 px-8 rounded-lg">
-            let's Go →
+            let&apos;s Go →
           </button>
         </div>
       </div>
